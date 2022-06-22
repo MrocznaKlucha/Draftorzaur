@@ -5,7 +5,8 @@ class Game:
         print("test")
         for a in player:
             print(a.name)
-
+    def random_first_player(self,player):
+        pass
 def main():
     player = [Player("Darek"),Player("Dominika")]
     game = Game(player)
